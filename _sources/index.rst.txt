@@ -6,11 +6,7 @@
 Welcome to psychopy-template's documentation!
 ===========================================
 
-The `psychopy-template` plugin is designed to make it really easy to get Emotiv
-EEG recordings working with minimal effort in your PsychoPy experiments.
-
-You can use it from the graphical Builder interface using the Builder Components
-below or from your own hand-written code using the library components.
+The `psychopy-template` plugin is designed to show you how to make a plugin.
 
 .. toctree::
    :maxdepth: 2
@@ -22,7 +18,7 @@ below or from your own hand-written code using the library components.
    :maxdepth: 2
    :caption: Library Components (API):
 
-   remplate_module
+   TemplatePluginComponent
 
 Indices and tables
 ==================
