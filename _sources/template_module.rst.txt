@@ -1,19 +1,11 @@
-:class:`TemplateClass`
-============================================================
+.. _template_module:
 
-Attributes
-------------------------------------------------------------
+Template Module (API)
+-------------------------------
 
-.. currentmodule:: template_package.template_module
+.. automodule:: psychopy_template.template_module
 
-.. autosummary::
+.. _templateModule:
 
-   TemplateClass
-
-Details
-------------------------------------------------------------
-
-.. autoclass:: TemplateClass
-   :members:
-   :undoc-members:
-   :inherited-members:
+.. autoclass:: psychopy_template.template_module.TemplateClass
+    :members:
