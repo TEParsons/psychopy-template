@@ -17,9 +17,9 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'psychopy-emotiv'
-copyright = '2022, Bill King'
-author = 'Bill King'
+project = 'psychopy-template'
+copyright = '2022, Open Science Tools'
+author = 'Open Science Tools'
 
 
 # -- General configuration ---------------------------------------------------
