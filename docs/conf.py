@@ -20,6 +20,7 @@
 project = 'psychopy-template'
 copyright = '2022, Open Science Tools'
 author = 'Open Science Tools'
+author_github = 'psychopy'
 
 
 # -- General configuration ---------------------------------------------------
