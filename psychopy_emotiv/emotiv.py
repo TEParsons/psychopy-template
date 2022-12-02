@@ -34,7 +34,7 @@ import time
 from pathlib import Path
 import logging  # NB this is the Python built-in logging not PsychoPy's
 import pandas as pd
-from psychopy import prefs
+from psychopy import prefs 
 
 # Set up logging for websockets library
 
