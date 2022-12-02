@@ -12,13 +12,13 @@ The `psychopy-template` plugin is designed to show you how to make a plugin.
    :maxdepth: 2
    :caption: Builder Components:
 
-   template_component
+   TemplatePluginComponent
 
 .. toctree::
    :maxdepth: 2
    :caption: Library Components (API):
 
-   TemplatePluginComponent
+   template_module
 
 Indices and tables
 ==================
