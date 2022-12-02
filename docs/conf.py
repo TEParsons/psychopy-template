@@ -51,6 +51,10 @@ html_theme_path = ["themes"]
 # html_theme = 'psychopy_bootstrap'
 html_theme = 'psychopy_plugin'
 
+# HTML tab title
+html_title = 'Psychopy Plugin Documentation'
+html_favicon = 'favicon.png'
+
 # Variables for use in HTML
 html_context = {'repo': repo}
 
