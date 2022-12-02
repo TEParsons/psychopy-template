@@ -51,6 +51,9 @@ html_theme_path = ["themes"]
 # html_theme = 'psychopy_bootstrap'
 html_theme = 'psychopy_plugin'
 
+# Variables for use in HTML
+html_context = {'repo': repo}
+
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
