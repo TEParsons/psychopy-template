@@ -5,7 +5,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.19: https://docutils.sourceforge.io/" />
 
-    <title>Emotiv Python Library (API) &#8212; psychopy-emotiv  documentation</title>
+    <title>Template Plugin Component &#8212; psychopy-emotiv  documentation</title>
     <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
     <link rel="stylesheet" type="text/css" href="_static/psychopy.css" />
     <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
@@ -20,7 +20,6 @@
     <script src="_static/bootstrap-sphinx.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="prev" title="Emotiv Marking Component" href="emotiv_marking.html" />
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
     <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1'>
@@ -99,16 +98,7 @@
      href="index.html">Documentation <b class="caret"></b></a>
   <ul class="dropdown-menu globaltoc"
       role="menu"
-      aria-labelledby="dLabelGlobalToc"><p class="caption" role="heading"><span class="caption-text">Builder Components:</span></p>
-<ul>
-<li class="toctree-l1"><a class="reference internal" href="emotiv_record.html">Emotiv Record Component</a></li>
-<li class="toctree-l1"><a class="reference internal" href="emotiv_marking.html">Emotiv Marking Component</a></li>
-</ul>
-<p class="caption" role="heading"><span class="caption-text">Library Components (API):</span></p>
-<ul class="current">
-<li class="toctree-l1 current"><a class="current reference internal" href="#">Emotiv Python Library (API)</a></li>
-</ul>
-</ul>
+      aria-labelledby="dLabelGlobalToc"></ul>
 </li> -->
               
             
@@ -136,9 +126,45 @@
   <div class="row">
     <div class="col-md-12 content">
       
-  <section id="emotiv-python-library-api">
-<span id="emotiv-api"></span><h1>Emotiv Python Library (API)<a class="headerlink" href="#emotiv-python-library-api" title="Permalink to this heading">¶</a></h1>
-<span class="target" id="emotivcortex"></span></section>
+  <section class="component-bio" id="template-plugin-component">
+<h1>Template Plugin Component<a class="headerlink" href="#template-plugin-component" title="Permalink to this heading">¶</a></h1>
+<p>A template component which does absolutely nothing, purely exists to show you how to
+add a component to a plugin.</p>
+<div class="toctree-wrapper compound">
+</div>
+<dl class="simple">
+<dt>Name<span class="classifier">code</span></dt><dd><p>Name of this component (alphanumeric or _, no spaces)</p>
+</dd>
+<dt>Start<span class="classifier">code</span></dt><dd><p>When does the component start?</p>
+</dd>
+<dt>Expected start (s)<span class="classifier">code</span></dt><dd><p>(Optional) expected start (s), purely for representing in the timeline</p>
+</dd>
+<dt>start type<span class="classifier">str</span></dt><dd><p>How do you want to define your start point?</p>
+</dd>
+<dt>Stop<span class="classifier">code</span></dt><dd><p>When does the component end? (blank is endless)</p>
+</dd>
+<dt>Expected duration (s)<span class="classifier">code</span></dt><dd><p>(Optional) expected duration (s), purely for representing in the timeline</p>
+</dd>
+<dt>stop type<span class="classifier">str</span></dt><dd><p>How do you want to define your end point?</p>
+</dd>
+</dl>
+<section id="data">
+<h2>Data<a class="headerlink" href="#data" title="Permalink to this heading">¶</a></h2>
+<dl class="simple">
+<dt>Save onset/offset times<span class="classifier">bool</span></dt><dd><p>Store the onset/offset times in the data file (as well as in the log file).</p>
+</dd>
+<dt>Sync timing with screen refresh<span class="classifier">bool</span></dt><dd><p>Synchronize times with screen refresh (good for visual stimuli and responses based on them)</p>
+</dd>
+</dl>
+</section>
+<section id="testing">
+<h2>Testing<a class="headerlink" href="#testing" title="Permalink to this heading">¶</a></h2>
+<dl class="simple">
+<dt>Disable component<span class="classifier">bool</span></dt><dd><p>Disable this component</p>
+</dd>
+</dl>
+</section>
+</section>
 
 
       <br/><a href="#" class="pull-right">Back to top</a>
@@ -152,7 +178,7 @@
       
         
 <div id="sourcelink">
-  <a href="https://github.com/psychopy/psychopy/blob/master/docs/source/emotiv_API.rst"
+  <a href="https://github.com/psychopy/psychopy/blob/master/docs/source/TemplatePluginComponent.rst"
      rel="nofollow">Source</a>
 </div>
       <br/>

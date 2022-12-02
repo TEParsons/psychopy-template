@@ -5,7 +5,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.19: https://docutils.sourceforge.io/" />
 
-    <title>Emotiv Marking Component &#8212; psychopy-emotiv  documentation</title>
+    <title>TemplateClass &#8212; psychopy-emotiv  documentation</title>
     <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
     <link rel="stylesheet" type="text/css" href="_static/psychopy.css" />
     <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
@@ -20,8 +20,6 @@
     <script src="_static/bootstrap-sphinx.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="Emotiv Python Library (API)" href="emotiv_API.html" />
-    <link rel="prev" title="Emotiv Record Component" href="emotiv_record.html" />
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
     <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1'>
@@ -100,16 +98,7 @@
      href="index.html">Documentation <b class="caret"></b></a>
   <ul class="dropdown-menu globaltoc"
       role="menu"
-      aria-labelledby="dLabelGlobalToc"><p class="caption" role="heading"><span class="caption-text">Builder Components:</span></p>
-<ul class="current">
-<li class="toctree-l1"><a class="reference internal" href="emotiv_record.html">Emotiv Record Component</a></li>
-<li class="toctree-l1 current"><a class="current reference internal" href="#">Emotiv Marking Component</a></li>
-</ul>
-<p class="caption" role="heading"><span class="caption-text">Library Components (API):</span></p>
-<ul>
-<li class="toctree-l1"><a class="reference internal" href="emotiv_API.html">Emotiv Python Library (API)</a></li>
-</ul>
-</ul>
+      aria-labelledby="dLabelGlobalToc"></ul>
 </li> -->
               
             
@@ -137,45 +126,13 @@
   <div class="row">
     <div class="col-md-12 content">
       
-  <section id="emotiv-marking-component">
-<span id="emotiv-marking"></span><h1>Emotiv Marking Component<a class="headerlink" href="#emotiv-marking-component" title="Permalink to this heading">¶</a></h1>
-<p>The Emotiv Marking component causes Psychopy to send a marker to the EEG datastream at the
-time that the stimuli are presented.</p>
-<p>For the Emotiv Marking component to work an emotiv_recording component should have already
-been added to the experiment.</p>
-<p>By default markers with labels and values can be added.  A time interval can be specified
-by sending a stop marker. If the Marker intervals overlap it is important that the labels are
-unique. Additionally the length of the interval
-must be greater than 0.2 seconds.  If you need higher speeds than this, it is best to
-record the times of your markers manually and compare them to the times in the raw EEG data.</p>
-<p>If you are exporting the experiment to HTML the emotiv components will have no effect in Pavlovia.
-To import the experiment into Emotiv OMNI, export the experiment to HTML and follow the instructions
-in the OMNI platform.</p>
-<section id="parameters">
-<h2>Parameters<a class="headerlink" href="#parameters" title="Permalink to this heading">¶</a></h2>
-<dl class="simple">
-<dt>Name<span class="classifier">string</span></dt><dd><p>Everything in a <a href="#id1"><span class="problematic" id="id2">|PsychoPy|</span></a> experiment needs a unique name. The name should contain only
-letters, numbers and underscores (no punctuation marks or spaces).</p>
-</dd>
-<dt>Start :</dt><dd><p>The time to send the marker to the EEG datastream</p>
-</dd>
-<dt>Stop Marker:</dt><dd><p>If selected the stop marker will be sent as specified by the Stop parameter. If no stop
-marker is sent then the marker will be an “instance” marker and will indicate a point in
-time. If a stop marker is sent the marker will be an “interval” marker and have a
-startDatetime and endDatetime associated with it.</p>
-</dd>
-<dt>Stop :</dt><dd><p>Governs the duration for which the stimulus is presented. See <span class="xref std std-ref">startStop</span> for details.</p>
-</dd>
-<dt>marker label<span class="classifier">string</span></dt><dd><p>The label assigned to this marker</p>
-</dd>
-<dt>marker value<span class="classifier">int</span></dt><dd><p>The value assigned to this marker</p>
-</dd>
-<dt>stop marker<span class="classifier">bool</span></dt><dd><p>Whether or not this is a stop marker.  Note: stop markers were designed for relatively
-long intervals (of the order of one second).  If you wish to mark short intervals
-it is safer to send two instance markers and label them appropriately so that you can
-create the intervals in post processing.</p>
-</dd>
-</dl>
+  <section id="templateclass">
+<h1><code class="xref py py-class docutils literal notranslate"><span class="pre">TemplateClass</span></code><a class="headerlink" href="#templateclass" title="Permalink to this heading">¶</a></h1>
+<section id="attributes">
+<h2>Attributes<a class="headerlink" href="#attributes" title="Permalink to this heading">¶</a></h2>
+</section>
+<section id="details">
+<h2>Details<a class="headerlink" href="#details" title="Permalink to this heading">¶</a></h2>
 </section>
 </section>
 
@@ -191,7 +148,7 @@ create the intervals in post processing.</p>
       
         
 <div id="sourcelink">
-  <a href="https://github.com/psychopy/psychopy/blob/master/docs/source/emotiv_marking.rst"
+  <a href="https://github.com/psychopy/psychopy/blob/master/docs/source/template_module.rst"
      rel="nofollow">Source</a>
 </div>
       <br/>
