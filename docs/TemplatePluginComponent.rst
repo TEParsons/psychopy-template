@@ -2,8 +2,8 @@
 Template Plugin Component
 ============================================================
 
-    A template component which does absolutely nothing, purely exists to show you how to 
-    add a component to a plugin.
+A template component which does absolutely nothing, purely exists to show you how to 
+add a component to a plugin.
     
 .. toctree::
   :maxdepth: 2

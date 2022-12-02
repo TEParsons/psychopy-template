@@ -94,10 +94,10 @@ def createComponentDocs(cls, params=None):
     # Find icon
     cls.icon = Path(cls.iconFile)
     icon = cls.icon.parent / "light" / (cls.icon.stem + "@2x" + cls.icon.suffix)
-    # Move icon to images folder
-    src = Path(__file__).parent
-    dest = src / "_static" / icon.name
-    shutil.copy(str(icon), str(dest))
+    # # Move icon to images folder
+    # src = Path(__file__).parent
+    # dest = src / "_static" / icon.name
+    # shutil.copy(str(icon), str(dest))
     
 
     # Create title
